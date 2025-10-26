@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="mx-auto max-w-screen-xl text-center">
           <ul className="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
             <li>
-              <Link to={"#"} className="mr-4 hover:underline md:mr-6">
+              <Link to={"#"} className="mr-4 hover:underline md:mr-6 ">
                 About
               </Link>
             </li>
@@ -28,12 +28,12 @@ export default function Footer() {
             </li>
             <li>
               <Link to={"#"} className="mr-4 hover:underline md:mr-6">
-                Afiliate Program
+                Affiliate Program
               </Link>
             </li>
             <li>
               <Link to={"#"} className="mr-4 hover:underline md:mr-6">
-                Faqs
+                FAQs
               </Link>
             </li>
             <li>
@@ -45,7 +45,7 @@ export default function Footer() {
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             ©{" "}
             <Link to={"#"} className="hover:underline">
-                2025
+              2025
             </Link>
             . All Rights Reserved.
           </span>

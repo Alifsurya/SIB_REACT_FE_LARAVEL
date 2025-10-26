@@ -41,7 +41,9 @@ export default function AdminLayout() {
                 </svg>
                 <span className="sr-only">Toggle sidebar</span>
               </button>
-              <Link to={"/admin"} className="flex items-center justify-between mr-4"
+              <Link 
+                to="/admin"
+                className="flex items-center justify-between mr-4"
               >
                 <img
                   src="https://flowbite.s3.amazonaws.com/logo.svg"
@@ -108,7 +110,8 @@ export default function AdminLayout() {
                   aria-labelledby="dropdown"
                 >
                   <li>
-                    <Link to={"#"}
+                    <Link 
+                      to="#"
                       className="block py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Sign out
@@ -130,8 +133,7 @@ export default function AdminLayout() {
           <div className="overflow-y-auto py-5 px-3 h-full bg-white dark:bg-gray-800">
             <ul className="space-y-2">
               <li>
-                <Link to={"/admin"}
-                  href="admin"
+                <Link to="/admin"
                   className="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                 >
                   <svg
@@ -148,8 +150,8 @@ export default function AdminLayout() {
                 </Link>
               </li>
               <li>
-                <a
-                  href="/admin/users"
+                <Link 
+                  to="/admin/users"
                   className="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
                 >
                   <svg
@@ -167,10 +169,10 @@ export default function AdminLayout() {
                     ></path>
                   </svg>
                   <span className="ml-3">Users</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <Link to={"/admin/authors"}
+                <Link to="/admin/authors"
                   className="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
                 >
                   <svg
@@ -191,7 +193,8 @@ export default function AdminLayout() {
                 </Link>
               </li>
               <li>
-                <Link to={"/admin/genres"}
+                <Link 
+                  to="/admin/genres"
                   className="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
                 >
                   <svg
@@ -215,7 +218,7 @@ export default function AdminLayout() {
 
             <ul className="pt-5 mt-5 space-y-2 borderT border-gray-200 dark:border-gray-700">
               <li>
-                <Link to={"/admin/books"}
+                <Link to="/admin/books"
                   className="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
                 >
                   <svg
@@ -236,7 +239,7 @@ export default function AdminLayout() {
                 </Link>
               </li>
               <li>
-                <Link to={"/admin/transactions"}
+                <Link to="/admin/transaction"
                   className="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
                 >
                   <svg
@@ -256,7 +259,7 @@ export default function AdminLayout() {
                 </Link>
               </li>
               <li>
-                <Link to={"#"}
+                <Link to="#"
                   className="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
                 >
                   <svg
